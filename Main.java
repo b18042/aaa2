@@ -1,44 +1,42 @@
-//課題4
+//課�?4
 //import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    	//課題4
-        //名前,年齢を入力する機能を追加する
+    	//課�?4
+        //名前,年齢を�?�力する機�?�を追�?する
         //Scanner scanner = new Scanner(System.in);
     	
-    	//課題2
+    	//課�?2
     	//名前,年齢をPersonクラスのオブジェクト生成に変更する
-        String name = "KateJones";
-        int age = 20;
+		Person person = new Person("Kate", "Jones", 20);
         
-        //課題4
-        //身長,体重を入力する機能
+        //課�?4
+        //身長,体重を�?�力する機�?�
         
-        //課題3
-    	//身長,体重,BMIをHealthクラスで定義および計算するように変更する
-    	//printDataメソッドを使って名前,年齢,身長,体重,BMIを表示する
+        //課�?3
+    	//身長,体重,BMIをHealthクラスで定義および計算するよ�?に変更する
+    	//printDataメソ�?ドを使って名前,年齢,身長,体重,BMIを表示する
         double height = 1.735;
         double weight = 67.0;
         double bmi = weight / height / height;
         
-		//課題4
+		//課�?4
         //scanner.close();
         
-        //課題1
+        //課�?1
         //名前,年齢,身長,体重,BMIの表示
-        System.out.println("私の名前は" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "mです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("BMIは" + bmi + "です");
+        System.out.println("私�?�名前は" + person.name + "で�?");
+        System.out.println("年齢は" + person.age + "歳で�?");
+        System.out.println("身長は" + height + "mで�?");
+        System.out.println("体重は" + weight + "kgで�?");
+        System.out.println("BMIは" + bmi + "で�?");
         
 
     }
-    //課題3
-	//課題1の名前,年齢,身長,体重,BMIの表示機能をprintDataメソッドに移動
-	//isHealthyメソッドを使ってBMIが標準値を満たしているかの表示機能を追加する
-    //public static void printData(Person person) {
-    //
-	//}
+    // 課�?3
+    /*
+	public static void printData(Person person) {
+	}
+	*/
 }
